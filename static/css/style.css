@@ -168,7 +168,7 @@ p {
   gap: 15px;
 }
 .header .social a {
-  width: 30px;
+  width: 40px;
 }
 
 /* Offers */
@@ -200,4 +200,28 @@ p {
 .text ul li b {
   display: block;
   color: var(--secondary);
+}
+
+/* Sticky Whatsapp */
+.sticky-btn {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  width: 90%;
+  background: #4fcc5d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  border-radius: 100px;
+}
+.sticky-btn img {
+  width: 40px;
+}
+.sticky-btn span {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--light);
 }
