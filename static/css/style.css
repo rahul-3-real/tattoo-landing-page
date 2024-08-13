@@ -170,6 +170,40 @@ p {
 .header .social a {
   width: 40px;
 }
+.header .social .insta-blink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: auto;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5);
+  background-size: 400% 400%;
+  animation: gradient 3s ease infinite;
+  padding: 10px;
+  border-radius: 5px;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+    scale: 1;
+  }
+  50% {
+    background-position: 100% 50%;
+    scale: 0.95;
+  }
+  100% {
+    background-position: 0% 50%;
+    scale: 1;
+  }
+}
+.header .social .insta-blink img {
+  width: 40px;
+}
+.header .social .insta-blink span {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--light);
+}
 
 /* Offers */
 .offers {
