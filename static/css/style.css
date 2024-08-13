@@ -137,11 +137,11 @@ p {
 
 /* Header */
 .header {
-  padding: 20px 15px;
+  padding: 0 15px;
   background: var(--light);
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   border-radius: 0 0 10px 10px;
   border-bottom: 1px solid var(--primary);
   position: fixed;
@@ -152,9 +152,6 @@ p {
 }
 .header .logo {
   width: 100px;
-  position: absolute;
-  top: 0;
-  left: 15px;
   overflow: hidden;
   display: inline-block;
 }
@@ -179,7 +176,7 @@ p {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5);
   background-size: 400% 400%;
   animation: gradient 3s ease infinite;
-  padding: 10px;
+  padding: 5px;
   border-radius: 5px;
 }
 @keyframes gradient {
@@ -197,10 +194,10 @@ p {
   }
 }
 .header .social .insta-blink img {
-  width: 40px;
+  width: 50px;
 }
 .header .social .insta-blink span {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
   color: var(--light);
 }
